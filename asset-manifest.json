@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/http//okky26.github.io/landing-page/static/css/main.3990c801.css",
+    "main.js": "/http//okky26.github.io/landing-page/static/js/main.a514a593.js",
+    "static/js/787.ba502647.chunk.js": "/http//okky26.github.io/landing-page/static/js/787.ba502647.chunk.js",
+    "static/media/gazebo--home.jpg": "/http//okky26.github.io/landing-page/static/media/gazebo--home.f9958fa4cc89103c7f4c.jpg",
+    "static/media/gazebo--home2.jpg": "/http//okky26.github.io/landing-page/static/media/gazebo--home2.0d0ed2cfe3e90be7d4e2.jpg",
+    "static/media/person-2.jpg": "/http//okky26.github.io/landing-page/static/media/person-2.b42f95c8956762801319.jpg",
+    "static/media/person-5.jpg": "/http//okky26.github.io/landing-page/static/media/person-5.70acfd6c466fe58006ec.jpg",
+    "static/media/person-4.jpg": "/http//okky26.github.io/landing-page/static/media/person-4.08cd4f260d7ffe036aa0.jpg",
+    "static/media/person-3.jpg": "/http//okky26.github.io/landing-page/static/media/person-3.e435937a9f518ba0154a.jpg",
+    "static/media/person-1.jpg": "/http//okky26.github.io/landing-page/static/media/person-1.25f92e4e02a9e1fd832c.jpg",
+    "static/media/product-2.png": "/http//okky26.github.io/landing-page/static/media/product-2.091057de39df6e6820ab.png",
+    "static/media/product-1.png": "/http//okky26.github.io/landing-page/static/media/product-1.46244d780e5514b31ff5.png",
+    "static/media/product-3.png": "/http//okky26.github.io/landing-page/static/media/product-3.3e2adfc2c70b746eda63.png",
+    "static/media/reason--section2 1.png": "/http//okky26.github.io/landing-page/static/media/reason--section2 1.e20038833ba5ade496de.png",
+    "static/media/reason--section3 1.png": "/http//okky26.github.io/landing-page/static/media/reason--section3 1.34aaa5350e6d9cd05f14.png",
+    "static/media/reason--section 1.png": "/http//okky26.github.io/landing-page/static/media/reason--section 1.5087fb0b3f9c0694df5c.png",
+    "index.html": "/http//okky26.github.io/landing-page/index.html",
+    "main.3990c801.css.map": "/http//okky26.github.io/landing-page/static/css/main.3990c801.css.map",
+    "main.a514a593.js.map": "/http//okky26.github.io/landing-page/static/js/main.a514a593.js.map",
+    "787.ba502647.chunk.js.map": "/http//okky26.github.io/landing-page/static/js/787.ba502647.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3990c801.css",
+    "static/js/main.a514a593.js"
+  ]
+}
