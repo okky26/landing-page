@@ -1,0 +1,332 @@
+
+.banner--section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d2d2d2;
+}
+.banner--textBox{
+    width: 50%;
+    height: 50%;
+    margin-left: 100px;
+    align-content: center;
+    position: relative;
+}
+.textBox{
+    margin-top: 5rem;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;    
+}
+.textBox p{
+    width: 60%;
+}
+.background{
+    width: 50%;
+    position: relative;
+}
+.gazebo--banner{
+    position: absolute;
+    width: 40%; 
+    transform: translate(220px, -200px);
+    z-index: 2;
+}
+.gazebo--banner2{
+    position: absolute;
+    width: 40%;
+    transform: translateX(50px);
+    z-index: 3;
+}
+.background::after{
+    content: '';
+    background-color: transparent;
+    width: 200px;
+    height: 275px;
+    border: solid 5px #232323;
+    z-index: 1;
+    position: absolute;
+    transform: translate(150px,-150px);
+}
+.reason--section{
+    width: 100%;
+    height: 225vh;
+}
+.work{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #d2d2d2;
+    background-color: #232323;
+}
+.workBox{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.workBox p{
+    text-align: center;
+    width: 80%;
+}
+.reason{
+    background-color: #d2d2d2;
+    height: 85%;
+}
+.reason h2{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    font-weight: 700;
+}
+.reason h2::after{
+    content: '';
+    position: absolute;
+    background-color: #232323;
+    width: 50%;
+    height: 10px;
+    border: none;
+    transform: translateX(70%);
+}
+.reason--sub{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    font-weight: 600;
+}
+.reason--sub::after{
+    content: '';
+    position: absolute;
+    background-color: #232323;
+    width: 20%;
+    height: 10px;
+    border: none;
+    transform: translateX(175%);
+}
+.reasonList{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    gap: 1rem;
+}
+.reason--para{
+    position: absolute;
+    letter-spacing: 0.5rem;
+    transform: translateY(-30px);
+}
+.reason--content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.reason--content p{
+    width: 35%;
+}
+.reason--content div,
+.reason--content-2 div,
+.reason--content-3 div{
+    width: 100%;
+    height: 30px;
+    background-color: #232323;
+}
+.reasonList img{
+    width: 15%;
+}
+.reasonList-2{
+    padding-top: 5rem;
+    padding-left: 10rem;
+    display: flex;
+    gap: 1rem;
+}
+.reasonList-2 img{
+    width: 15%;
+}
+.reason--para-2{
+    position: absolute;
+    letter-spacing: 0.5rem;
+    transform:translate(-150px,100px) rotate(-90deg);   
+}
+.reason--content-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.reason--content-2 p{
+    width: 35%;
+}
+.reasonList-3{
+    padding-top: 5rem;
+    padding-left: 20rem;
+    display: flex;
+    gap: 1rem;
+}
+.reason--para-3{
+    position: absolute;
+    letter-spacing: 0.5rem;
+    transform: translateY(-30px);
+}
+.reasonList-3 img{
+    width: 20%;
+}
+.reason--content-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.reason--content-3 p{
+    width: 35%;
+}
+.product--section{
+    width: 100%;
+    height: 125vh;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.product--section h2{
+    margin-top: 5rem;
+    color: #d2d2d2;
+}
+.product--section p{
+    font-weight: 600;
+    width: 50%;
+    color: #d2d2d2;
+    text-align: center;
+}
+.teams--section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d2d2d2;
+}
+.title{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem; 
+}
+.title--box{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.title--box div{
+    background-color: #232323;
+    width: 30px;
+    height: 30px;
+}
+.title p{
+    width: 50%;
+    text-align: right;
+}
+@media screen and (max-width: 550px) {
+    .banner--section{
+        height: 150vh;
+        flex-direction: column;
+    }
+    .banner--textBox{
+        width: 100%;
+        margin-right: 0;
+    }
+    .textBox{
+        margin-top: 0;
+    }
+    .textBox h1{
+        width: 80%;
+        font-size: 2rem;
+    }
+    .background{
+        transform: translateX(-100px);
+    }
+    .gazebo--banner{
+        width: 80%;
+    }
+    .gazebo--banner2{
+        width: 80%;
+    }
+    .work{
+        flex-direction: column;
+        height: 25%;
+    }
+    .workBox p{
+        font-size: 1rem;
+    }
+    .workBox h2{
+        font-size: 1.5rem;
+    }
+    .reason--section{
+        height: 300vh;
+    }
+    .reason{
+        height: 75%;
+    }
+    .reason h2::after{
+        width: 50%;
+        height: 5px;
+        border: none;
+        transform: translate(30%,5px);
+    }
+    .reason--sub::after{
+        width: 50%;
+        height: 5px;
+        border: none;
+        transform: translate(90%,-40px);
+    }
+    .reason--content p{
+        width: 75%;
+    }
+    .reason--content div,
+    .reason--content-2 div,
+    .reason--content-3 div{
+    width: 100%;
+    height: 15px;
+    background-color: #232323;
+    }
+    .reasonList img{
+        width: 30%;
+    }
+    .reasonList-2 img{
+        width: 30%;
+    }
+    .reasonList-2{
+        padding-left: 6rem;
+    }
+    .reason--para-2{
+        position: absolute;
+        letter-spacing: 0.2rem;
+        transform:translate(-105px,100px) rotate(-90deg);   
+    }
+    .reason--content-2 p{
+        width: 75%;
+    }
+    .reasonList-3 img{
+        width: 30%;
+    }
+    .reasonList-3{
+        padding-top: 5rem;
+        padding-left: 7rem;
+        display: flex;
+        gap: 1rem;
+    }
+    .reason--content-3 p{
+        width: 75%;
+    }
+    .reasonList,
+    .reasonList-2,
+    .reasonList-3{
+        padding-top: 10rem;
+    }
+}

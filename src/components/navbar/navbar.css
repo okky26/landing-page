@@ -1,0 +1,48 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navLink{
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.links{
+    text-decoration: none;
+    color: #232323;
+    font-weight: 500;
+}
+.homeActive::after,
+.teamsActive::after,
+.policyActive::after{
+    content: '';
+    position: absolute;
+    transform: translate(-28px,25px);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #232323;
+    border: none;
+}
+.productsActive::after,
+.contactActive::after{
+    content: '';
+    position: absolute;
+    transform: translate(-35px,25px);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #d2d2d2;
+    border: none;
+}
+.productsActive::after{
+    transform: translate(-39px,25px);
+}
+.linkLight a{
+    color: #d2d2d2;
+}

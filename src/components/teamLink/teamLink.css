@@ -1,0 +1,61 @@
+.teams--container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+.teams--link{
+    flex-basis: 25%;
+    height: 80%;
+}
+.teams--show{
+    flex-basis: 50%;
+}
+.teams--link--right,
+.teams--link--left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teams--link--top,
+.teams--link--bot{
+    width: 90%;
+    flex-basis: 22.5%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.teams--link--mid{
+    width: 100%;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teams--link--top img,
+.teams--link--bot img{
+    width: 50%;
+    height: 75%;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.teams--link--mid img{
+    width: 50%;
+    height: 75%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.teams--show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: .5s;
+}
+.teams--show img{
+    width: 50%;
+    border-radius: 50%;
+}
